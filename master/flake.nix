@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-servy-master.flake = false;
+  inputs.src-servy-master.ref   = "refs/heads/master";
   inputs.src-servy-master.owner = "xmonader";
-  inputs.src-servy-master.ref   = "master";
   inputs.src-servy-master.repo  = "nim-servy";
   inputs.src-servy-master.type  = "github";
   
