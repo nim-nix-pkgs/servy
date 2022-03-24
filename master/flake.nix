@@ -16,7 +16,7 @@
   inputs."terminaltables".owner = "nim-nix-pkgs";
   inputs."terminaltables".ref   = "master";
   inputs."terminaltables".repo  = "terminaltables";
-  inputs."terminaltables".dir   = "";
+  inputs."terminaltables".dir   = "master";
   inputs."terminaltables".type  = "github";
   inputs."terminaltables".inputs.nixpkgs.follows = "nixpkgs";
   inputs."terminaltables".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
