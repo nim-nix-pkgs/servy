@@ -36,9 +36,36 @@
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
+        "servy-master": "servy-master"
+      }
+    },
+    "servy-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
         "src-servy-master": "src-servy-master",
         "terminaltables": "terminaltables",
         "ws": "ws"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1651589764,
+        "narHash": "sha256-rs0ky5R0XQcMpSZ/UvXhRn0YDa8n0MmdRfd+VSBWMS0=",
+        "owner": "nim-nix-pkgs",
+        "repo": "servy",
+        "rev": "434a0952c3317825220c5ca8aa1507e7fa7c4788",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "servy",
+        "type": "github"
       }
     },
     "src-servy-master": {
@@ -95,20 +122,22 @@
     "terminaltables": {
       "inputs": {
         "flakeNimbleLib": [
+          "servy-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "servy-master",
           "nixpkgs"
         ],
         "src-terminaltables-master": "src-terminaltables-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1651918509,
-        "narHash": "sha256-tchbK2zQvuWVmW/m3IyGXDD6O5TujGfsuEXg3FujJUE=",
+        "lastModified": 1651556146,
+        "narHash": "sha256-LcTXab7SX7Sjl2Bd5R8qzcNATr1FAVJlJVZFXmpY7vk=",
         "owner": "nim-nix-pkgs",
         "repo": "terminaltables",
-        "rev": "f5c204d32079943a9271ee231829ae82d9ea3583",
+        "rev": "a1939f04f2ffe61a97ced42d332556bae50d1d02",
         "type": "github"
       },
       "original": {
@@ -122,20 +151,22 @@
     "ws": {
       "inputs": {
         "flakeNimbleLib": [
+          "servy-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "servy-master",
           "nixpkgs"
         ],
         "src-ws-0_5_0": "src-ws-0_5_0"
       },
       "locked": {
         "dir": "0_5_0",
-        "lastModified": 1651918613,
-        "narHash": "sha256-qysuChpS0dk+B7RFKQENej/pwIdpsZwfGBLJxW/tLHQ=",
+        "lastModified": 1651556246,
+        "narHash": "sha256-WUmlD/IW6YpUun4fUJ3T6NZ2KZ69vn5WCod5WLlGbDU=",
         "owner": "nim-nix-pkgs",
         "repo": "ws",
-        "rev": "cc1d6dd13c8ab84e4b8e9fd7231a51b6be0403ad",
+        "rev": "cc8b3db831beac1a5081d3d94faf4dfbca7feeab",
         "type": "github"
       },
       "original": {
